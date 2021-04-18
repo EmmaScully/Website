@@ -252,6 +252,13 @@ class Header extends React.Component {
               <li>
                 <Button
                   theme={theme}
+                  to="/index"
+                >
+                  Home
+                </Button>
+
+                <Button
+                  theme={theme}
                   to="/about-me"
                 >
                   My Projects
