@@ -132,10 +132,7 @@ class AboutMe extends React.Component {
       <AboutMeWrapper>
         <Layout theme="white" openContactPopup={this.openContactPopup}>
           
-          <Content>
-            <br></br>
-            <Img fluid={data.avatarAbout.childImageSharp.fluid} alt="Emma Scully" className="avatar" />
-          </Content>
+         
             
         
           

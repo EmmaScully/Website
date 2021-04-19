@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, HireMe } from './Button.js';
+import { Button, HireMe, LinkButton} from './Button.js';
 import Close from '../images/close-popup.png';
 import styled from 'styled-components';
 import Colors from '../Colors';
@@ -249,20 +249,18 @@ class Header extends React.Component {
               <Burger onClick={this.handleClose}>
                 <img alt="Close menu" src={Close} />
               </Burger>
-              <li>
-                <Button
-                  theme={theme}
-                  to="/"
-                >
+              <li style={{textAlign:'right', fontSize:'20px'}}>
+                <a href="/" style={{color:'brown'}}>
+                  
+                
                   Home
-                </Button>
-
-                <Button
-                  theme={theme}
-                  to="/about-me"
-                >
+                  </a>
+ <br></br>
+                  <a href="/about-me" style={{color:'brown'}}>
+                  
+                
                   My Projects
-                </Button>
+                  </a>
               </li>
               
             </MenuList>

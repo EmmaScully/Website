@@ -152,8 +152,8 @@ class Homepage extends React.Component {
             <t.LargeP align="center" max90>
             Hi there! My name is Emma, I'm a final year electrical engineering and biomedical science student at Monash. 
             <br></br>I have a passion for improving healthcare through engineering and improving the lives of others. <br></br>
-             In my spare time I like to go bouldering, workout, play videogames and  
-             <a href='https://www.goodreads.com/user/show/74839768-emma-scully' style={{color:'black'}}> read</a>.
+             In my spare time I like to go bouldering, workout, play videogames and&nbsp;
+             <a href='https://www.goodreads.com/user/show/74839768-emma-scully' style={{color:'black'}}>read</a>.
             </t.LargeP> 
 
             <HireMe large onClick={null} >
